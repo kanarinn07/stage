@@ -3,11 +3,11 @@ const ctx = canvas.getContext("2d");
 
 // 調整する数（ここだけを変えて試す）
 const CONFIG = {
-  GRAVITY: 1000,
-  JUMP_SPEED: 600,
-  MOVE_SPEED: 400, 
+  GRAVITY: 2500,
+  JUMP_SPEED: 900,
+  MOVE_SPEED: 400,
   MAX_JUMPS: 2,
-  FALL_GRAVITY_RATE: 2,
+  FALL_GRAVITY_RATE: 2.5,
 };
 
 const TARGET_HEIGHT = 64;   // 目印の線の高さ（床から64px＝キャラ2つ分）。ぶつからない
